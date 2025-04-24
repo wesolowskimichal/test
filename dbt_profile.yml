@@ -1,0 +1,8 @@
+name: hello_project
+version: "1.0"
+profile: hello_project
+model-paths: ["models"]
+
+models:
+  hello_project:
+    +materialized: table
