@@ -1,1 +1,3 @@
-SELECT 'hello world' AS greeting
+{{ config(materialized='table') }}
+
+SELECT 'Hello world' AS greeting
