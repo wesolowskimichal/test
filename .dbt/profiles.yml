@@ -1,0 +1,14 @@
+test:
+  outputs:
+    dev:
+      type: postgres
+      threads: 4
+      host: localhost
+      port: 5001
+      user: pg
+      password: pw
+      dbname: db
+      schema: public
+      keepalives_idle: 0
+      sslmode: disable
+  target: dev
